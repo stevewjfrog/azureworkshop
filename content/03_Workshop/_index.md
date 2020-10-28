@@ -10,4 +10,4 @@ pre = "<b>3. </b>"
 
 # Build and Scale Seamlessly with the JFrog Platform on Azure
 
-Add something here.
+Add something here. And it's going to be AWESOME!
