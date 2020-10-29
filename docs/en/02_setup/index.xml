@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshop Setup on Documentation for Hugo Learn Theme</title>
+    <link>/en/02_setup/</link>
+    <description>Recent content in Workshop Setup on Documentation for Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 19 Oct 2020 14:32:21 -0700</lastBuildDate><atom:link href="/en/02_setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JFrog Free Cloud Trial</title>
+      <link>/en/02_setup/01_jfrog_platform/</link>
+      <pubDate>Mon, 19 Oct 2020 14:37:28 -0700</pubDate>
+      
+      <guid>/en/02_setup/01_jfrog_platform/</guid>
+      <description>You will need the JFrog Platform Cloud Free Trial for this workshop. The free trial does not require a credit card or payment information to set up and includes JFrog Artifactory, XRay, and Pipelines.
+  Go to the JFrog Platform Free Cloud Trial page.
+  Select Microsoft Azure as your cloud provider.
+  Populate the required fields in the form (Server Details, Create your Credentials, and User Details) and click &amp;lsquo;Proceed&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft Azure</title>
+      <link>/en/02_setup/02_msft_azure/</link>
+      <pubDate>Mon, 19 Oct 2020 14:36:05 -0700</pubDate>
+      
+      <guid>/en/02_setup/02_msft_azure/</guid>
+      <description>  Go to Microsoft Azure.
+  Click &amp;lsquo;Try Azure for free&amp;rsquo;.
+  Click &amp;lsquo;Start free&amp;rsquo;.
+  You Microsoft Azure platform is ready.
+  </description>
+    </item>
+    
+  </channel>
+</rss>
