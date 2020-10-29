@@ -8,6 +8,7 @@ themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 publishDir = "docs"
+canonifyurls = true
 
 [params]
   themeVariant = "green"
