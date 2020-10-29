@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on Documentation for Hugo Learn Theme</title>
-    <link>/en/03_workshop/</link>
+    <link>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/</link>
     <description>Recent content in Workshop on Documentation for Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 19 Oct 2020 14:12:26 -0700</lastBuildDate><atom:link href="/en/03_workshop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Oct 2020 14:12:26 -0700</lastBuildDate><atom:link href="https://stevewjfrog.github.io/azureworkshop/en/03_workshop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure CLI</title>
-      <link>/en/03_workshop/azure_cli/</link>
+      <link>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/azure_cli/</link>
       <pubDate>Mon, 19 Oct 2020 15:02:42 -0700</pubDate>
       
-      <guid>/en/03_workshop/azure_cli/</guid>
+      <guid>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/azure_cli/</guid>
       <description>Open the Azure Cloud Shell and sign in with your account. Select the Bash version of Azure Cloud Shell.
 Azure Cloud Shell  We need to create some Bash variables for the values that we will be using throughout the workshop. If you select a different value, remember it for the rest of the exercises in this workshop. Run the following commands to record these values in Bash variables.
 REGION_NAME=westus RESOURCE_GROUP=jfrog-aks-workshop SUBNET_NAME=aks-subnet VNET_NAME=aks-vnet At any point, the echo command can be used to show the value of a variable.</description>
@@ -20,40 +20,40 @@ REGION_NAME=westus RESOURCE_GROUP=jfrog-aks-workshop SUBNET_NAME=aks-subnet VNET
     
     <item>
       <title>Resource Group</title>
-      <link>/en/03_workshop/azure_resource_group/</link>
+      <link>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/azure_resource_group/</link>
       <pubDate>Mon, 19 Oct 2020 15:01:59 -0700</pubDate>
       
-      <guid>/en/03_workshop/azure_resource_group/</guid>
+      <guid>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/azure_resource_group/</guid>
       <description>Create a new resource group with the name jfrog-aks-workshop. Deploy all resources created in these exercises in this resource group. A single resource group makes it easier to clean up the resources after you finish the module.
 az group create \  --name $RESOURCE_GROUP \  --location $REGION_NAME </description>
     </item>
     
     <item>
       <title>Configure Networking</title>
-      <link>/en/03_workshop/configure_networking/</link>
+      <link>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/configure_networking/</link>
       <pubDate>Mon, 19 Oct 2020 15:01:58 -0700</pubDate>
       
-      <guid>/en/03_workshop/configure_networking/</guid>
+      <guid>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/configure_networking/</guid>
       <description>We have two network models to choose from when deploying an AKS cluster. The first model is Kubenet networking, and the second is Azure Container Networking Interface (CNI) networking.
 What is Kubenet networking? Kubenet networking is the default networking model in Kubernetes. With Kubenet networking, nodes get assigned an IP address from the Azure virtual network subnet. Pods receive an IP address from a logically different address space to the Azure virtual network subnet of the nodes.</description>
     </item>
     
     <item>
       <title>Deploy an AKS cluster</title>
-      <link>/en/03_workshop/deploy_aks/</link>
+      <link>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/deploy_aks/</link>
       <pubDate>Mon, 19 Oct 2020 15:01:57 -0700</pubDate>
       
-      <guid>/en/03_workshop/deploy_aks/</guid>
+      <guid>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/deploy_aks/</guid>
       <description>With the new virtual network in place, you can go ahead and create your new cluster. There are two values you need to know before running the az aks create command. The first is the version of the latest, non-preview, Kubernetes version available in your selected region, and the second is a unique name for your cluster.
 To get the latest, non-preview, Kubernetes version you use the az aks get-versions command.</description>
     </item>
     
     <item>
       <title>AKS Cluster Connectivity</title>
-      <link>/en/03_workshop/cluster_connectivity/</link>
+      <link>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/cluster_connectivity/</link>
       <pubDate>Mon, 19 Oct 2020 15:01:56 -0700</pubDate>
       
-      <guid>/en/03_workshop/cluster_connectivity/</guid>
+      <guid>https://stevewjfrog.github.io/azureworkshop/en/03_workshop/cluster_connectivity/</guid>
       <description>kubectl is the main Kubernetes command-line client you use to interact with your cluster and is available in Cloud Shell. A cluster context is required to allow kubectl to connect to a cluster. The context contains the cluster&amp;rsquo;s address, a user, and a namespace. Use the az aks get-credentials command to configure your instance of kubectl.
 Retrieve the cluster credentials by running the command below.
 az aks get-credentials \  --resource-group $RESOURCE_GROUP \  --name $AKS_CLUSTER_NAME Let&amp;rsquo;s take a look at what was deployed by listing all the nodes in your cluster.</description>

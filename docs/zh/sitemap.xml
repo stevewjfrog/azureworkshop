@@ -3,59 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/zh/categories/</loc>
+    <loc>https://stevewjfrog.github.io/azureworkshop/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="https://stevewjfrog.github.io/azureworkshop/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories/"
+                href="https://stevewjfrog.github.io/azureworkshop/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/categories/"
+                href="https://stevewjfrog.github.io/azureworkshop/zh/categories/"
                 />
   </url>
   
   <url>
-    <loc>/zh/</loc>
+    <loc>https://stevewjfrog.github.io/azureworkshop/zh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://stevewjfrog.github.io/azureworkshop/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/"
+                href="https://stevewjfrog.github.io/azureworkshop/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/"
+                href="https://stevewjfrog.github.io/azureworkshop/zh/"
                 />
   </url>
   
   <url>
-    <loc>/zh/tags/</loc>
+    <loc>https://stevewjfrog.github.io/azureworkshop/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="https://stevewjfrog.github.io/azureworkshop/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/tags/"
+                href="https://stevewjfrog.github.io/azureworkshop/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/"
+                href="https://stevewjfrog.github.io/azureworkshop/zh/tags/"
                 />
   </url>
   
